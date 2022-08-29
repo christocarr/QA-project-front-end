@@ -1,0 +1,40 @@
+.customer_list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item {
+  width: 40%;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 0.5em;
+  padding: 2em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.5em 0.7em;
+  border-radius: 0.3em;
+  background-color: #0070f3;
+  color: white;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+.address {
+  line-height: 0.5;
+}
+
+.drivers_license {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.all_customers {
+  cursor: pointer;
+}
